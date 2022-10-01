@@ -1,0 +1,38 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: rgb(211, 208, 208);
+}
+.page-title{
+    background-color: black;
+    margin: auto;
+}
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    margin: auto;
+}
+.registration-form {
+    width: 1000px; 
+    margin: 20px auto;
+}
+@media only screen and (max-width: 700px) {
+    h1{
+        width: 500px;
+        color: white;
+        background-color: black;
+        font-size: 25px;
+    }
+
+    .registration-form{
+        width: 1000px; 
+        padding-left: 35%;
+        margin: 20px 20px auto;
+    }
+  }
